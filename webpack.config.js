@@ -15,8 +15,8 @@ module.exports = {
     ],
   },
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'web'),
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'lib'),
     library: 'deobfuscator'
   }
 };
